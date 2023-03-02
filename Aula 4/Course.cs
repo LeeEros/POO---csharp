@@ -4,12 +4,12 @@ namespace School
     {
         public string name = "";
 
-        public double value;
+        public double salary;
 
         public int quantityStudents; 
 
-        public double conta() {
-            return this.value * this.quantityStudents; 
+        public double Conta() {
+            return salary * quantityStudents; 
         }
     }
 }
