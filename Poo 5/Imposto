@@ -1,0 +1,16 @@
+/*using System;
+
+namespace SalarioFinal{
+    class imposto{
+
+        Funcionario novoFuncionario = new Funcionario();
+
+        public double impostoAplicado;
+
+        public double impostoFuncionario(){
+            double impostoFuncionario = (impostoAplicado / 100); 
+            return impostoFuncionario;
+        }
+
+    }
+}*/
