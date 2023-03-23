@@ -9,15 +9,14 @@ namespace Shopping
 		static void Main(string[] args)
 		
 		{
-			Produto p = new Produto("Pimenta Malagueta", 5.5, 200);
+			/*Produto p = new Produto("Pimenta Malagueta", 5.5, 200);
 			
 			Console.Write(p.Nome);
 			Console.Write(p.Preco);
-			Console.Write(p.Quantidade);
+			Console.Write(p.Quantidade);*/
 			
 			
-			
-			/*Console.WriteLine("Entre com os dados do produto: ");
+			Console.WriteLine("Entre com os dados do produto: ");
 			Console.Write("Nome: ");
 			
 			p.Nome = Console.ReadLine();
@@ -40,7 +39,7 @@ namespace Shopping
 			
 			p.AdicionarProduto(15);
 			
-			Console.WriteLine(p.RetornaQuantidade());		*/
+			Console.WriteLine(p.RetornaQuantidade());		
 			
 			
 		}
