@@ -21,20 +21,14 @@ namespace Shopping
 			Quantidade = quantidade; 
 		}
 		
-		public Produto(string nome) 
+		public Produto(string nome, ddouble preco)
+		
 		{
 			Nome = nome;
+			Preco = preco;
+			Quantidade = 0;
 		}
 		
-		public Produto(string preco) 
-		{
-			Preco = preco;
-		}
-		
-		public Produto(string preco) 
-		{
-			Preco = preco;
-		}
 		
 		public void AdicionarProduto(int quantidade)
 		{

@@ -14,8 +14,8 @@ namespace SalarioFinal{
         Console.WriteLine("Digite o imposto do Funcionário");
         novoFuncionario.imposto = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("O funcionário é :" + novoFuncionario.nome);
-        Console.WriteLine(novoFuncionario.impostoAplicado());
+        Console.WriteLine("O funcionário é : " + novoFuncionario.nome);
+        Console.WriteLine("O imposto aplicado foi: " + novoFuncionario.impostoAplicado());
         }
     }
 }
