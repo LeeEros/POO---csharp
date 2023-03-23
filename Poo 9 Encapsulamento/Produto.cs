@@ -24,16 +24,40 @@ namespace Course
 			_quantity = quantity;
 		}
 		
-		public string? GetNome()
-		
-		{
-			return _name;
-		}
+
 		
 		public void SetName(string name)
 		
 		{
 			_name = name;
+		}
+		
+		public string? GetName()
+		
+		{
+			return _name;
+		}
+		
+		
+		public double SetPrice(double price)
+		{
+			return _price;
+		}
+		
+		public double GetPrice(double price)
+		{
+			return _price;
+		}
+		
+		
+		public double SetQuantity(int quantity)
+		{
+			return _quantity;
+		}
+		
+		public int GetQuantity(int quantity)
+		{
+			return _quantity;
 		}
 	}
 }
