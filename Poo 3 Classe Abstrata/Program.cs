@@ -1,9 +1,11 @@
 ﻿using System;
 
-namespace  Abstrato
+namespace Abstrato
 {
-    class Program{
-        static void Main(string[] args){
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
             Triangulo areaTriangulo1 = new Triangulo();
             Triangulo areaTriangulo2 = new Triangulo();
