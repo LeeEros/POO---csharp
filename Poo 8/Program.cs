@@ -9,11 +9,11 @@ namespace Shopping
 		static void Main(string[] args)
 		
 		{
-			/*Produto p = new Produto("Pimenta Malagueta", 5.5, 200);
+			Produto p = new Produto("Pimenta Malagueta", 5.5, 200);
 			
 			Console.Write(p.Nome);
 			Console.Write(p.Preco);
-			Console.Write(p.Quantidade);*/
+			Console.Write(p.Quantidade);
 			
 			
 			Console.WriteLine("Entre com os dados do produto: ");
@@ -21,10 +21,10 @@ namespace Shopping
 			
 			p.Nome = Console.ReadLine();
 			Console.Write("Preço: ");
-			p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+			//p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 			
 			Console.Write("Quantidade no Estoque: ");
-			p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+			//p.Quantidade = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 			
 			Console.WriteLine("");
 

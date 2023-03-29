@@ -21,7 +21,7 @@ namespace Shopping
 			Quantidade = quantidade; 
 		}
 		
-		public Produto(string nome, ddouble preco)
+		public Produto(string nome, double preco)
 		
 		{
 			Nome = nome;

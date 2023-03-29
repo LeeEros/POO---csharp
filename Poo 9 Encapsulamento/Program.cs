@@ -11,7 +11,7 @@ namespace Course
 			
 			string? name = Console.ReadLine();			
 			
-			p.SetName(name);
+			p.SetName("Alguma coisa");
 			Console.WriteLine(p.GetName());
 		}
 	}
